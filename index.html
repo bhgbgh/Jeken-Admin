@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>后台管理</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+    <style>
+        html,
+        body,
+        #root {
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .d2-root-loading-group {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: #757F9A;
+            background: -webkit-linear-gradient(to top, #D7DDE8, #757F9A);
+            background: linear-gradient(to top, #D7DDE8, #757F9A);
+        }
+        
+        .d2-root-loading-title {
+            color: #FFF;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            letter-spacing: 0.2em;
+        }
+        
+        .d2-root-loading-sub-title {
+            color: #FFF;
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .d2-root-loading-sub-info {
+            color: #FFF;
+            font-size: 10px;
+            opacity: .8;
+            margin-bottom: 4px;
+        }
+        
+        .d2-root-loading-btn {
+            text-decoration: none;
+            display: inline-block;
+            line-height: 1;
+            white-space: nowrap;
+            cursor: pointer;
+            background: #fff;
+            border: 1px solid #dcdfe6;
+            border-color: #dcdfe6;
+            color: #606266;
+            -webkit-rootearance: none;
+            text-align: center;
+            box-sizing: border-box;
+            outline: none;
+            margin: 0;
+            transition: .1s;
+            font-weight: 500;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            padding: 12px 20px;
+            font-size: 14px;
+            border-radius: 4px;
+            /* 圆角 */
+            padding: 7px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        
+        .d2-root-loading-grid {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .d2-root-loading-grid .d2-root-loading {
+            width: 10px;
+            height: 10px;
+            background-color: #FFF;
+            float: left;
+            -webkit-animation: d2-root-loading-grid-scale-delay 1.3s infinite ease-in-out;
+            animation: d2-root-loading-grid-scale-delay 1.3s infinite ease-in-out;
+        }
+        
+        .d2-root-loading-grid .d2-root-loading1 {
+            border-top-left-radius: 4px;
+            -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+        }
+        
+        .d2-root-loading-grid .d2-root-loading2 {
+            -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+        }
+        
+        .d2-root-loading-grid .d2-root-loading3 {
+            border-top-right-radius: 4px;
+            -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+        }
+        
+        .d2-root-loading-grid .d2-root-loading4 {
+            -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+        }
+        
+        .d2-root-loading-grid .d2-root-loading5 {
+            -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+        }
+        
+        .d2-root-loading-grid .d2-root-loading6 {
+            -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+        }
+        
+        .d2-root-loading-grid .d2-root-loading7 {
+            border-bottom-left-radius: 4px;
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+        }
+        
+        .d2-root-loading-grid .d2-root-loading8 {
+            -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+        }
+        
+        .d2-root-loading-grid .d2-root-loading9 {
+            border-bottom-right-radius: 4px;
+            -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+        }
+        
+        @-webkit-keyframes d2-root-loading-grid-scale-delay {
+            0%,
+            70%,
+            100% {
+                -webkit-transform: scale3D(1, 1, 1);
+                transform: scale3D(1, 1, 1);
+            }
+            35% {
+                -webkit-transform: scale3D(0, 0, 1);
+                transform: scale3D(0, 0, 1);
+            }
+        }
+        
+        @keyframes d2-root-loading-grid-scale-delay {
+            0%,
+            70%,
+            100% {
+                -webkit-transform: scale3D(1, 1, 1);
+                transform: scale3D(1, 1, 1);
+            }
+            35% {
+                -webkit-transform: scale3D(0, 0, 1);
+                transform: scale3D(0, 0, 1);
+            }
+        }
+    </style>
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+    <div id="root">
+        <div class="d2-root-loading-group">
+            <div class="d2-root-loading-grid">
+                <div class="d2-root-loading d2-root-loading1"></div>
+                <div class="d2-root-loading d2-root-loading2"></div>
+                <div class="d2-root-loading d2-root-loading3"></div>
+                <div class="d2-root-loading d2-root-loading4"></div>
+                <div class="d2-root-loading d2-root-loading5"></div>
+                <div class="d2-root-loading d2-root-loading6"></div>
+                <div class="d2-root-loading d2-root-loading7"></div>
+                <div class="d2-root-loading d2-root-loading8"></div>
+                <div class="d2-root-loading d2-root-loading9"></div>
+            </div>
+            <div class="d2-root-loading-title">加载中,请耐心等待...</div>
+            <div class="d2-root-loading-sub-info">如果很久很久都没有加载成功，请清空缓存重新加载页面</div>
+            <!-- <div style="margin-top: 10px;">
+                <a class="d2-root-loading-btn" href="https://github.com/d2-projects/d2-admin" target="blank">Github仓库</a>
+                <a class="d2-root-loading-btn" href="http://d2admin.fairyever.com/zh/" target="blank">中文文档</a>
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>

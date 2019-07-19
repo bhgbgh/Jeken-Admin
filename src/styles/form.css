@@ -1,0 +1,98 @@
+form {
+    margin: 0 100px 0 0;
+}
+
+span.label {
+    display: inline-block;
+    padding: 0 10px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgba(64, 158, 255, .2);
+    white-space: nowrap;
+}
+
+.handle-input {
+    width: 150px;
+    display: inline-block;
+}
+
+.el-dialog__header {
+    padding: 10px 10px 10px;
+    border-bottom: 1px solid #e9eaec;
+}
+
+.el-dialog__body {
+    padding: 10px 10px;
+}
+
+.el-dialog__footer {
+    padding: 10px 10px 10px;
+    border-top: 1px solid #e9eaec;
+}
+
+.el-card__header {
+    padding: 8px 10px;
+}
+
+.el-card__body {
+    padding: 10px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix>span {
+    font-size: 16px;
+}
+
+.select-tree .icons-wrapper {
+    display: block;
+}
+
+.select-tree .is-empty i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.select-tree .is-empty i:hover {
+    background-color: #0d6aad;
+    color: #ffffff;
+}
+
+.el-table--mini td,
+.el-table--mini th {
+    padding: 6px 0;
+}
+
+.el-tag {
+    padding: 0 6px;
+    height: 28px;
+    line-height: 26px;
+}
+
+.el-submenu__icon-arrow {
+    font-size: 16px;
+}
+
+.el-tree-node__expand-icon {
+    font-size: 16px;
+}
+
+.el-submenu__title .fa {
+    font-size: 16px;
+}
