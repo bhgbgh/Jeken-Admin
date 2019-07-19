@@ -38,19 +38,11 @@ export const CONTEXT = '/jeken';
 
 ## 页面截图
 
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/login.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/cmenu.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/dash.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/dash2.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/menu.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/menu2.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/menu5.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/resource.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/role.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/role4.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/user.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/user2.png?t=1" /></p>
-<p><img src="https://raw.githubusercontent.com/lanux/Jeken-Admin/master/static/data/mobile.png?t=1" /></p>
+<p><img src="https://github.com/bhgbgh/Jeken-Admin/blob/master/static/data/%E7%99%BB%E5%BD%95.png?raw=true" /></p>
+<p><img src="https://github.com/bhgbgh/Jeken-Admin/blob/master/static/data/%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86.png?raw=true" /></p>
+<p><img src="https://github.com/bhgbgh/Jeken-Admin/blob/master/static/data/%E8%A1%A8%E5%8D%95%E9%A1%B5.png?raw=true" /></p>
+<p><img src="https://github.com/bhgbgh/Jeken-Admin/blob/master/static/data/%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86.png?raw=true" /></p>
+<p><img src="https://github.com/bhgbgh/Jeken-Admin/blob/master/static/data/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.png?raw=true" /></p>
 
 
 ## 鸣谢
