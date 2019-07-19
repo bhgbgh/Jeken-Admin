@@ -4,10 +4,7 @@
 ## 项目介绍
 基于Vue2 + element 基于Vue2 + element ui实现的基础开发平台（前端），支持前后端分离开发，已实现基础的后台管理功能，包括用户管理、资源（菜单、权限）管理、角色（岗位）管理、组织管理、数据字典、日志管理、定时任务等，后续后逐步开发其它功能。用户可基于此平台快速开发自己的业务功能。
 
-[前端（GitHub）](https://114.67.71.219:9201/jeken "Jeken-Admin")
-[前端（Gitee）](https://github.com/0oliumino0/Jeken-Admin "Jeken-Admin")
-[后端（GitHub）](https://114.67.71.219:9201/jeken "Jeken")
-[后端（Gitee）](https://github.com/0oliumino0/Jeken "Jeken")
+
 
 ## 安装步骤
 
@@ -25,12 +22,12 @@ npm run build
 ```
 
 ## 打包发布,修改根路径名
-1. 修改 **[./Jeken-Admin/config/index.js](Jeken-Admin/config/index.js)**   参数:build.assetsPublicPath
+1. 修改“Jeken-Admin/config/index.js”，参数:build.assetsPublicPath
 ```javascript
 //eg.  assetsPublicPath: '/Jeken-Admin/'
 assetsPublicPath: '/jeken/';
 ```
-2. 修改 **[./Jeken-Admin/src/common/axios.js](Jeken-Admin/src/common/axios.js)**
+2. 修改“Jeken-Admin/src/common/axios.js“
 ```javascript
 // export const CONTEXT = 'api';
 export const CONTEXT = '/jeken';
